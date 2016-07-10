@@ -129,6 +129,10 @@ div.section {
 	clear: left;
 }
 
+div.short_section {
+	max-height: 3em;
+}
+
 div.center_wrap {
 	max-width: 900px;
 	clear: left;
