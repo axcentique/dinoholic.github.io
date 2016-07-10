@@ -1,0 +1,270 @@
+.stick {
+    position:fixed;
+    top:0px;
+	text-align: center;
+}
+
+div.tab_centered {
+	background-color: white;
+	opacity: 0.9;
+	font-size: 1.5em;
+	width: 100%;
+	text-align: center;
+	font-weight: 300;
+	color: silver;
+	padding-bottom: .2em;
+}
+
+p.spec {
+	color: silver;
+}
+
+body {
+	color: black;
+	font-family: 'Oxygen', sans-serif;
+	margin: 0;
+}
+
+body.dark {
+	color: white;
+	font-family: 'Oxygen', sans-serif;
+	margin: 0;
+	background-color: #282525;
+}
+
+p.hello {
+	font-weight:300;
+	font-size:4em;
+	clear: left;
+	top: 5%;
+	text-align: center;
+	margin-bottom: 0;
+	letter-spacing:-.05em;
+}
+
+p.description {
+	font-weight:300;
+	font-size:1.4em;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 3em;
+}
+
+div.container {
+	text-align: center;
+	height: 700px;
+}
+
+div.tab {
+	border-top: 1px solid #dcdcdc;
+}
+
+div.tab p {
+	text-align: left;
+	clear: left;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+div.tab_header_common {
+	float: left;
+	font-size:1.5em;
+	margin-right: .5em;
+	margin-left: .5em;
+	width: 30%;
+	margin-top: 1em;
+	opacity: 0.7;
+}
+	
+div.tab_header_bold {
+	opacity: 1;
+}
+
+div.right_align {
+	margin-left: 2em;
+}
+
+p.tab_header_common {
+	clear: none;
+	font-size: 1.3em;
+	font-weight:300;
+	width: 20%;
+}
+
+p.tab_header_bold {font-weight:400;opacity: 1;}
+div.center_align {text-align: center;}
+
+a:link {color: #52ace1;text-decoration: none;}
+a:hover {color: #52ace1;text-decoration: underline;}
+a:visited {color: #52ace1;}
+
+div.design_rex {
+	background: url(images/rex.jpg) no-repeat;
+	background-size: 300px 464px;
+	width: 600px;
+	height: 464px;
+	clear: left;
+	margin-left: 12rem;
+	padding-left: 330px;
+	text-align: left;
+	margin-top: 5rem;
+	padding-top: 1em;
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+div.design_rex {
+	background-image: url(images/rex@2x.jpg);
+}}
+
+div.tab_header {
+	font-weight: 400;
+	width: 100%;
+	height: 2em;
+	font-size: 3em;
+	text-align: left;
+	padding: .5em 0 0;
+}
+
+div.section {
+	border-top: 1px solid #dcdcdc;
+	clear: left;
+}
+
+div.center_wrap {
+	max-width: 900px;
+	clear: left;
+	margin-bottom: 10%;
+}
+
+
+div.box1 h1 {
+	font-size: 2em;
+	font-weight: 300;	
+}
+
+div.box2 h1 {
+	font-size: 2em;
+	font-weight: 300;
+}
+
+div.box2 li {
+	margin-left: -1em;
+}
+
+div.dotted_line {
+	width: 100%;
+	border-top: 2px dotted #dcdcdc;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-device-width : 379px) {
+	div.box_common {
+		height: 100%;
+		clear: left;
+	}
+	
+	div.center_wrap {
+		margin: 0;
+	}
+	
+	div.box1 {
+		width: 100%;
+		height: 400px;
+	}
+	
+	div.box2 {
+		width: 100%;
+	}
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-device-width : 380px) {
+	div.section {
+		width: 100%;
+		margin: auto;
+	}
+	
+	div.center_wrap {
+		height: 400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	div.center_wrap_high {
+		height: 600px!important;
+	}
+	
+	div.box_common {
+		height: 100%;
+		float: left;
+	}
+	
+	div.box1 {
+		width: 38%;
+	}
+	
+	div.box2 {
+		width: 62%;
+	}
+}
+
+
+/* Images */
+div.posters {
+	background: url(images/ohbm_portrait.png) no-repeat;
+	background-size: 100%;
+}
+
+div.webdesign {
+	background: url(images/webdesign.png) no-repeat; 
+	background-size: 90%;
+	background-position: bottom left;
+}
+
+div.guide {
+	background: url(images/guide.png) no-repeat;
+	background-position: center right;
+	background-size: 90%;
+}
+
+div.vision {
+	background: url(images/vision.png) no-repeat;
+	background-position: center right;
+	background-size: 95%;
+}
+
+div.brain {
+	background: url(images/brain.png) no-repeat;
+	background-position: top left;
+	background-size: 95%;
+}
+
+div.ohbm {
+	background: url(images/ohbm.png) no-repeat;
+	background-position: top right;
+	background-size: 92%;
+}
+
+div.misc {
+	background: url(images/misc.png) no-repeat;
+	background-position: top right;
+	background-size: 92%;
+}
+
+div.rtfmri {
+	background: url(images/rtfmri.png) no-repeat;
+	background-position: top right;
+	background-size: 70%;
+}
+
+div.munin {
+	background: url(images/munin.png) no-repeat;
+	background-position: top right;
+	background-size: 80%;
+}
+
