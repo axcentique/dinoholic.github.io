@@ -217,54 +217,54 @@ and (min-device-width : 380px) {
 
 /* Images */
 div.posters {
-	background: url(images/ohbm_portrait.png) no-repeat;
+	background: url(images/ohbm_portrait.jpg) no-repeat;
 	background-size: 100%;
 }
 
 div.webdesign {
-	background: url(images/webdesign.png) no-repeat; 
+	background: url(images/webdesign.jpg) no-repeat; 
 	background-size: 90%;
 	background-position: bottom left;
 }
 
 div.guide {
-	background: url(images/guide.png) no-repeat;
+	background: url(images/guide.jpg) no-repeat;
 	background-position: center right;
 	background-size: 90%;
 }
 
 div.vision {
-	background: url(images/vision.png) no-repeat;
+	background: url(images/vision.jpg) no-repeat;
 	background-position: center right;
 	background-size: 95%;
 }
 
 div.brain {
-	background: url(images/brain.png) no-repeat;
+	background: url(images/brain.jpg) no-repeat;
 	background-position: top left;
 	background-size: 95%;
 }
 
 div.ohbm {
-	background: url(images/ohbm.png) no-repeat;
+	background: url(images/ohbm.jpg) no-repeat;
 	background-position: top right;
 	background-size: 92%;
 }
 
 div.misc {
-	background: url(images/misc.png) no-repeat;
+	background: url(images/misc.jpg) no-repeat;
 	background-position: top right;
 	background-size: 92%;
 }
 
 div.rtfmri {
-	background: url(images/rtfmri.png) no-repeat;
+	background: url(images/rtfmri.jpg) no-repeat;
 	background-position: top right;
 	background-size: 70%;
 }
 
 div.munin {
-	background: url(images/munin.png) no-repeat;
+	background: url(images/munin.jpg) no-repeat;
 	background-position: top right;
 	background-size: 80%;
 }
